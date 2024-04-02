@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "iransans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./../public/fonts/IRANSansXFaNum-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "iransans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./../public/fonts/IRANSansXFaNum-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "iransans";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./../public/fonts/IRANSansXFaNum-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "iransans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./../public/fonts/IRANSansXFaNum-Black.woff2") format("woff2");
+}
+html {
+  font-family: "iransans" !important;
+}
+.font-iransans {
+  font-family: "iransans" !important;
+}
+.css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {
+  margin: 0 0.5rem !important;
+}
+.MuiDateRangePickerDay-root,
+.MuiDateRangePickerDay-outsideCurrentMonth,
+.MuiDateRangePickerDay-endOfMonth,
+.MuiDateRangePickerDay-hiddenDayFiller {
+  margin: 0 0.5rem !important;
+  font-family: "iransans" !important;
+}
+.MuiDateRangePickerDay-root:last-child,
+.MuiDateRangePickerDay-outsideCurrentMonth:last-child,
+.MuiDateRangePickerDay-endOfMonth:last-child,
+.MuiDateRangePickerDay-hiddenDayFiller:last-child {
+  margin-right: -4px !important;
+}
+.MuiDateRangePickerDay-root:first-child,
+.MuiDateRangePickerDay-outsideCurrentMonth:first-child,
+.MuiDateRangePickerDay-endOfMonth:first-child,
+.MuiDateRangePickerDay-hiddenDayFiller:first-child {
+  margin-left: -4px !important;
+}
+.MuiDateRangeCalendar-root {
+  gap: 2rem !important;
+}
+.MuiDateRangeCalendar-root div[style*="z-index: 100000"] {
+  display: none;
+}
+.MuiDateRangePickerDay-dayOutsideRangeInterval {
+  font-family: "iransans" !important;
+}
+.MuiTypography-subtitle1 {
+  font-family: "iransans" !important;
+}
+.select__value-container {
+  padding: 0 !important;
+}
+.MuiSvgIcon-fontSizeInherit {
+  transform: rotate(180deg);
+}
+.react-calendar__month-view__weekdays__weekday {
+  font-size: 10px !important;
+}
